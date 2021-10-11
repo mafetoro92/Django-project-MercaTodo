@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'Project_API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
+        'HOST': 'btbyvjjcbtsmovglpdiu-mysql.services.clever-cloud.com',
         'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'test',
-        'NAME': 'mercatodo_db',
+        'USER': 'u9ugphs8dgrxumyw',
+        'PASSWORD': '0VQ0pAQ6YDImj7DxvjUc',
+        'NAME': 'btbyvjjcbtsmovglpdiu',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
